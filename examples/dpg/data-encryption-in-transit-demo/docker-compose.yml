@@ -1,0 +1,28 @@
+version: '3.1'
+
+services:
+
+  nextjs:
+    image: node:lts-alpine
+    container_name: nextjs
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: sh -c "yarn install && yarn dev"
+
+  ciphertrust:
+    image: thalesgroup/ciphertrust-data-protection-gateway:latest
+    container_name: ciphertrust
+    environment:
+      - REG_TOKEN=<YOUR_DPG_REG_TOKEN>
+      - DESTINATION_URL=http://nextjs:3000
+      - DPG_PORT=9005
+      - TLS_ENABLED=false
+      - KMS=<YOUR_CM_IP>
+    ports:
+      - 9005:9005
+    
+
+networks:
+  db_net:
+    driver: bridge
