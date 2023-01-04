@@ -1,20 +1,12 @@
 # Learn CipherTrust
 
-A repository which contains all you need from quick deployment scripts to step-by-step demos and tutorials. Check out the [learn CipherTrust website](https://thalesgroup.github.io/ciphertrust/) to see the video tutorials and demos associated to projects in this repository.
-
-**Please keep this structure as is and only fill the content for each section according to your project.**
+A repository which contains all you need from quick deployment scripts to step-by-step demos and tutorials. Check out the [Learn CipherTrust website](https://thalesgroup.github.io/ciphertrust/) to see the video tutorials and demos associated to projects in this repository.
 
 If you need assistance or have question, please contact oss@thalesgroup.com
 
 ## Get started
 
-XXX project purpose it to ...
-
-**Please also add the description into the About section (Description field)**
-
-## Documentation
-
-Documentation is available at [https://thalesgroup.github.io/ciphertrust/](https://thalesgroup.github.io/ciphertrust/).
+Head to the [Learn CipherTrust Website](https://thalesgroup.github.io/ciphertrust/) to [get started](https://thalesgroup.github.io/ciphertrust/docs/intro)!
 
 ## Contributing
 
@@ -22,4 +14,4 @@ If you are interested in contributing a new tutorial / example / module to the L
 
 ## License
 
-This repository contains code under the [Apache 2.0](LICENSE) license.
+This repository contains code under the [MIT](LICENSE) license.
