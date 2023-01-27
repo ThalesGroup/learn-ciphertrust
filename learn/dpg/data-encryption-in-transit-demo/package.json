@@ -13,7 +13,7 @@
     "axios": "^0.27.2",
     "mongodb": "^4.8.1",
     "next": "latest",
-    "next-auth": "^4.10.2",
+    "next-auth": "^4.10.3",
     "react": "18.1.0",
     "react-code-blocks": "^0.0.9-0",
     "react-dom": "18.1.0",
