@@ -12,7 +12,7 @@
     "axios": "^0.27.2",
     "cookie": "^0.5.0",
     "jsonwebtoken": "^8.5.1",
-    "next": "latest",
+    "next": "^13.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-dropzone": "^14.2.2",
