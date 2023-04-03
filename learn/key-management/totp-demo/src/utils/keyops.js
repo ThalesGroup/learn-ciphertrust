@@ -1,6 +1,8 @@
 import axios from 'axios';
 
 async function createKey(keyname, jwt) {
+    // /api/create-key-proxy rewrites to https://<your_ciphertrust_url>/api/v1/vault/keys2
+    // This is done to avoid CORS errors thrown by the browser in the client side.
     const response = await axios.post(
         `/api/create-key-proxy`,
         {
@@ -18,6 +20,8 @@ async function createKey(keyname, jwt) {
     })
 
     // Export key from CipherTrust Manager
+    // /api/export-key-proxy/<keyId> rewrites to https://<your_ciphertrust_url>/api/v1/vault/keys2/<keyId>/export
+    // This is done to avoid CORS errors thrown by the browser in the client side.
     const exportResponse = await axios.post(
         `/api/export-key-proxy/${keyname}`,
         {},
