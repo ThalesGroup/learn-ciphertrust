@@ -1,0 +1,3 @@
+[submodule "providers/terraform"]
+	path = providers/terraform
+	url = https://github.com/ThalesGroup/terraform-provider-ciphertrust.git
